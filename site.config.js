@@ -1,10 +1,10 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "kylekim2123",
-    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "backend developer",
-    bio: "Hello!",
+    name: "Kyle Kim",
+    image: "/avatar.png",
+    role: "Backend developer",
+    bio: "교육에 관심이 많은 개발자 김영주입니다 :)",
     email: "kylekim2123@gmail.com",
     linkedin: "",
     github: "kylekim2123",
@@ -12,21 +12,21 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `kyle's project`,
-      href: "https://github.com/morethanmin/morethan-log",
+      name: `Pickple`,
+      href: "https://github.com/Java-and-Script/pickple-back",
     },
   ],
   // blog setting (required)
   blog: {
     title: "Kyle's devlog",
-    description: "Welcome to Kyle's devlog",
-    scheme: "dark", // 'light' | 'dark' | 'system'
+    description: "Kyle의 개발 블로그",
+    scheme: "system", // 'light' | 'dark' | 'system'
   },
 
   // CONFIG configration (required)
-  link: "https://morethan-log.vercel.app",
-  since: 2022, // If leave this empty, current year will be used.
-  lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
+  link: "https://kyle-devlog.vercel.app",
+  since: 2024, // If leave this empty, current year will be used.
+  lang: "ko-KR", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
 
   // notion configuration (required)
