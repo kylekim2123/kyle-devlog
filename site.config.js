@@ -4,15 +4,15 @@ const CONFIG = {
     name: "Kyle Kim",
     image: "/avatar.png",
     role: "Backend developer",
-    bio: "교육에 관심이 많은 개발자 김영주입니다 :)",
-    email: "kylekim2123@gmail.com",
+    bio: "kylekim2123@gmail.com",
+    email: "",
     linkedin: "",
     github: "kylekim2123",
     instagram: "",
   },
   projects: [
     {
-      name: `Pickple`,
+      name: `Pickple (농구 게스트 모집 플랫폼)`,
       href: "https://github.com/Java-and-Script/pickple-back",
     },
   ],
