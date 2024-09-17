@@ -4,15 +4,15 @@ const CONFIG = {
     name: "Kyle Kim",
     image: "/avatar.png",
     role: "Backend developer",
-    bio: "kylekim2123@gmail.com",
-    email: "",
+    bio: "어제보다 성장하는 오늘이 되길",
+    email: "kylekim2123@gmail.com",
     linkedin: "",
     github: "kylekim2123",
     instagram: "",
   },
   projects: [
     {
-      name: `Pickple (농구 게스트 모집 플랫폼)`,
+      name: `픽플 (농구 게스트 모집 플랫폼)`,
       href: "https://github.com/Java-and-Script/pickple-back",
     },
   ],
@@ -54,7 +54,7 @@ const CONFIG = {
     },
   },
   utterances: {
-    enable: false,
+    enable: true,
     config: {
       repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
       "issue-term": "og:title",
